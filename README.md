@@ -9,7 +9,7 @@ npm init
 
 ### 2. 配置项目基本信息
 
-```
+```json
 package name: (react-manual-config)
 version: (1.0.0)
 description: An example to show how to init a react app without create-react-app
@@ -127,7 +127,7 @@ module.exports = {
 
 在根目录下新建 `.babelrc`, 按以下配置，用于支持es6/7和JSX语法：
 
-```
+```json
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
@@ -177,7 +177,7 @@ export default class App extends React.Component {
 
 ### 1. 修改`package.json`,添加`build`快捷命令
 
-```
+```json
 {
   "name": "react-manual-config",
   "version": "1.0.0",
